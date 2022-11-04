@@ -70,4 +70,6 @@ a {
 
 .nav__btn:hover {
     cursor: pointer;
+    background-color: darkorchid;
+    transition: 30ms ease;
 }
