@@ -28,7 +28,9 @@ a {
 
 }
 
-
+.text__purple {
+    color:rgb(100, 21, 255);
+}
 
 /* NAVIGATION */
 
@@ -91,10 +93,47 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 96px 0;
+}
+
+.main__desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 40%;
+}
+
+.main__desc--title {
+    font-size: 56px;
+}
+
+.main__desc--para {
+    margin: 36px 0;
+    font-size: 18px;
+}
+
+.main__desc--input-wrapper {
+    border-radius: 9999px;
+    border-width: 2px;
+    border: solid;
+    padding: 10px 0;
+    
+    max-width: 70%
+}
+
+.main__desc--input {
+    
+
 }
 
 
 
-.main__figure--wrapper {
-    
+
+.main__logos--para {
+    margin-top: 36px;
+}
+
+.main__img {
+    height: 100%;
+    width: 100%;
 }
