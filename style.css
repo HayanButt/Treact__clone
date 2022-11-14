@@ -10,6 +10,10 @@ html {
     font-family: Inter, system-ui;
 }
 
+body {
+    padding: 32px;
+}
+
 .row {
     width: 100%;
     max-width: 1400px;
@@ -53,6 +57,10 @@ a {
     padding-right: 0.75rem;
 }
 
+.nav__links {
+    position: relative;
+}
+
 .nav__link {
     font-size: 18px;
     color:#000;
@@ -80,6 +88,7 @@ a {
     color: #fff;
     transition: all 250ms ease;
     padding: 0.75rem 2rem;
+    text-align: center;
 }
 
 .btn:hover {
@@ -109,23 +118,35 @@ a {
 
 .main__desc--para {
     margin: 36px 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .main__desc--input-wrapper {
-    border-radius: 9999px;
-    border-width: 2px;
-    border: solid;
-    padding: 10px 0;
-    
-    max-width: 70%
+    position: relative;
 }
 
 .main__desc--input {
-    
-
+   /*width: 100%;
+   padding: 10px 40px 10px 8px;*/
+    width: 100%;
+    padding: 20px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid rgb(226, 232, 240);
+    border-radius: 9999px;
 }
 
+
+.main__desc--input:hover {
+    border-color: #000;
+}
+
+.main__btn {
+    width: 100%;
+    max-width: 100px;
+    position :absolute;
+
+}
 
 
 
