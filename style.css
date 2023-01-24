@@ -178,6 +178,7 @@ a {
 }
 
 /* FEATURES */
+
 .features__container {
     margin: 80px 0;
     margin: 0 auto;
@@ -188,7 +189,25 @@ a {
 .features__heading {
     text-align: center;
     margin-bottom: 40px;
+    
 }
+
+.features__para {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.features__title {
+    letter-spacing: 2px;
+}
+
+.features__main--title {
+    font-size: 60px;
+}
+
 
 .features__title, .features__main--title, .features__para {
     margin-bottom: 16px;
@@ -206,7 +225,6 @@ a {
 }
 
 .feature {
-    width: 33.3%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -230,4 +248,11 @@ a {
 .text__wrapper {
     margin-left: 1rem;
     margin-top: 0.5rem;
+    padding: 8px 32px;
+}
+
+.feature__para {
+    font-weight: 500;
+    line-height: 2;
+    color: gray;
 }
