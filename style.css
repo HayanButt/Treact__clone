@@ -149,13 +149,15 @@ a {
 
 .main__btn {
     width: 100%;
-    max-width: 100px;
+    max-width: 101px;
     position :absolute;
     right: 80px;
-    top: 7px;
+    top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .main__logo--para {
@@ -195,7 +197,7 @@ a {
 }
 
 .features__para {
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +210,7 @@ a {
 }
 
 .features__main--title {
-    font-size: 60px;
+    font-size: 58px;
 }
 
 
@@ -222,7 +224,7 @@ a {
     line-height: 2;
     margin: 0px;
     color: #7c8ba1;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 1rem;
 
 }
@@ -259,5 +261,46 @@ a {
 }
 
 .feature__heading {
-    font-size: 28px;
+    font-size: 26px;
+}
+
+/* QUALITY WORK */
+
+.qw__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.qw__text--wrapper {
+    width: 50%;
+    margin-right: 28px; 
+
+}
+
+.qw__title {
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.qw__main--title {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    font-weight: 900;
+}
+
+.qw__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.qw__figure--wrapper {
+    width: 50%;
+}
+
+.qw__para {
+    font-size: 20px;
+    line-height: 1.75;
+    margin-bottom: 24px;
+    font-weight: 500;
+    color: #7c8ba1;
 }
