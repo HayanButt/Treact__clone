@@ -304,3 +304,60 @@ a {
     font-weight: 500;
     color: #7c8ba1;
 }
+
+
+/* STEPS */
+.steps__wrapper {
+    width: 50%;
+    margin-left: 4rem;
+}
+
+.steps__figure {
+    width: 50%
+}
+
+.steps__title{
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.steps__main--title{
+    font-size: 3rem;
+    margin-bottom: 16px;
+    font-weight: 900;
+}
+
+.steps__text--wrapper{
+        
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.steps__numbers {
+    font-size: 36px;
+    font-weight: 700;
+    color: #cbd5e0;
+}
+
+.steps__heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.steps__para {
+    font-size: 0.875rem;
+    line-height: 2;
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    font-weight: 500;
+    color: #7c8ba1;
+}
+
+.text__wrapper {
+    margin-left: 1.5rem;
+}
